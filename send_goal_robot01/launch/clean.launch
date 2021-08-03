@@ -1,0 +1,9 @@
+<launch>
+
+	<param name="/use_sim_time" value="true"/>
+
+	<node name="send_clean_node01" pkg="send_goal_robot01" type="SendClean01" output="screen"/>
+	<node name="send_clean_node02" pkg="send_goal_robot02" type="SendClean02" output="screen"/>
+	<node name="send_clean_node03" pkg="send_goal_robot03" type="SendClean03" output="screen"/>
+	
+</launch>

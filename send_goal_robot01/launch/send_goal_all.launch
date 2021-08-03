@@ -1,0 +1,9 @@
+<launch>
+
+	<param name="/use_sim_time" value="true"/>
+
+	<node name="Robot01_From_CSV" pkg="send_goal_robot01" type="sendgoal01" output="screen"/>
+	<node name="Robot02_From_CSV" pkg="send_goal_robot02" type="sendgoal02" output="screen"/>
+	<node name="Robot03_From_CSV" pkg="send_goal_robot03" type="sendgoal03" output="screen"/>
+	
+</launch>
