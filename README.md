@@ -11,3 +11,4 @@
 1.Download ไฟล์ Standard_Turtlebot3 ซึ่งเป็นไฟล์เก็บ urdf หุ่นยนต์และ Envoronment จำลอง และต้อง Download package "Standard_Turtlebot3" ที่นี่ >> https://github.com/ROBOTIS-GIT/turtlebot3_simulations ไปใส่ใน catkin_ws/src <br />
 2.Download ไฟล์ odom_subscriber ไปใส่ใน catkin_ws/src  ซึ่ง odom_subscriber เป็น  Package เก็บ log file และ Ground truth state ซึ่งใช้ในการบอกตำแหน่งบนพื้นของหุ่นยนต์ใน Software GAZEBO <br />
 3.Download ไฟล์ send_goal_robot01 , send_goal_robot02 และ send_goal_robot03 ไปใส่ใน catkin_ws/src ซึ่งทั้ง 3 package นี้ใช้สำหรับควบคุมหุ่นยนต์ในโปรแกรม GAZEBO
+##
