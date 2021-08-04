@@ -1,4 +1,4 @@
-# KMUTNB_ME_SeniorProject_MultiRobot
+# การติดตั้งและทดลองโปรแกรม
 ## เกี่ยวกับ SAMBER SERVER 
 1.ติดตั้ง Samba server เครื่อง ubuntu เพื่อใช้ในการ**รับ-ส่ง**ข้อมูลพิกัดที่หุ่นยนต์เคลื่อนที่ >> https://youtu.be/SPTLuuAJhG0 <br />
 2.Check ip เครื่อง ubuntu โดยใช้คำสั่ง **$ ifconfig** ไปดูตรง inet-addr ว่าเป็นเลขอะไร เช่น 192.168.5.34 <br />
