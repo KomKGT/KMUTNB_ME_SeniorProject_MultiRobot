@@ -137,9 +137,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
- add_executable(send_goal_robot01 src/SendGoalRobot01.cpp)
- add_executable(send_goal_robot01_from_Txt src/SendGoalFromTxt.cpp)
- add_executable(sendxy src/sendxy.cpp)
+
  add_executable(sendgoal01 src/sendgoal01.cpp)
  add_executable(SendClean01 src/SendClean01.cpp)
  add_executable(SendCleanObs01 src/SendCleanObs01.cpp)
@@ -154,9 +152,7 @@ include_directories(
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(send_goal_robot01 ${catkin_LIBRARIES})
- target_link_libraries(send_goal_robot01_from_Txt ${catkin_LIBRARIES})
- target_link_libraries(sendxy ${catkin_LIBRARIES})
+
  target_link_libraries(sendgoal01 ${catkin_LIBRARIES})
  target_link_libraries(SendClean01 ${catkin_LIBRARIES})
  target_link_libraries(SendCleanObs01 ${catkin_LIBRARIES})
